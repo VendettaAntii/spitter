@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/world_of_darkness/v_arms/char_hero_merc_vamp_arms/T_Damsel_Arms_MH_Cinematic_D"
+    "$bumpmap" "models/survivors/world_of_darkness/v_arms/char_hero_merc_vamp_arms/T_Damsel_Arms_MH_Cinematic_N"
+    "$phongexponenttexture" "models/survivors/world_of_darkness/v_arms/char_hero_merc_vamp_arms/T_Damsel_Arms_MH_Cinematic_E"
+$halflambert 1
+$diffuseexp "1.5"	
+$ambientocclusion 1
+$nocull 1
+"$phong" "1" 
+"$phongboost" "1"
+"$phongfresnelranges" "[0.1 1 1]"
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/world_of_darkness/chars/heroes/hero_mercenery_vampire_cinematic/hero_merc_vamp_hair/T_Damsel_Hair_MH_Cinematic_D"
+	"$bumpmap" "models/survivors/world_of_darkness/chars/heroes/hero_mercenery_vampire_cinematic/hero_merc_vamp_hair/T_Damsel_Hair_MH_Cinematic_N"
+	"$phongexponent" "15"
+	"$PhongWarpTexture"         "models/survivors/world_of_darkness/engine/core/phongwarp_hair2" 
+	"$Phong"				    "1"
+	"$PhongBoost"               "1"
+	"$PhongFresnelRanges"	    "[0.1 0 0]"
+	"$translucent" 			  	"0"
+	"$AlphaTest" 			  	"1"
+	"$Model"                    "1"
+	"$HalfLambert" 			    "1"
+	"$NoDecal" 				    "1"
+	"$AmbientOcclusion" 	    "0"
+	"$NoCull" 				    "1"
+	"$SurfaceProp" 			    "flesh"
+$nodecal 1
+}

@@ -1,0 +1,17 @@
+"EyeRefract"
+{
+$iris "models/survivors/world_of_darkness/chars/heroes/hero_mercenery_vampire_cinematic/hero_merc_vamp_head/T_Damsel_Eye_MH_Cinematic_D"
+$AmbientOcclTexture "models/survivors/world_of_darkness/engine/core/survivor_eye_ao" 
+$Envmap "models/survivors/world_of_darkness/engine/core/eye-reflection-cubemap-" 
+$CorneaTexture "models/survivors/world_of_darkness/engine/core/eye-cornea" 
+$EyeballRadius "0.5" 
+$AmbientOcclColor "[.4 .4 .4]" 
+$Dilation ".5" 
+$ParallaxStrength "0.25" 
+$CorneaBumpStrength ".5" 
+$halflambert 1
+$nodecal 1
+$ambientocclusion 1
+$RaytraceSphere 0
+$SphereTexkillCombo 0 
+}

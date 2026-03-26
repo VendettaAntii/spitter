@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/world_of_darkness/chars/heroes/hero_mercenery_vampire_cinematic/hero_merc_vamp_head/T_Damsel_Eyelash_MH_Cinematic_D"
+	"$nocull" 1
+	"$translucent" 1
+$nodecal 1
+}

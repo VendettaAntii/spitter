@@ -1,0 +1,16 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+{
+	"$basetexture" "models/survivors/world_of_darkness/engine/core/M_Metallic_Shared"
+"$bumpmap" "models/survivors/world_of_darkness/engine/core/skin_nm"
+	"$phong" 1
+	"$phongtint" "[1 1 1]"
+	"$phongexponent" 1
+	"$phongboost" "5"
+	"$phongfresnelranges" "[1 1 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[1 1 1]"
+	"$normalmapalphaenvmapmask" 1
+}
