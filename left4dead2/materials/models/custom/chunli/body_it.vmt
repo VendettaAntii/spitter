@@ -1,0 +1,46 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 					"models\survivors\chunli\Body_D"
+	"$bumpmap" 						"models\survivors\chunli\bile_normal"
+	"$phongexponenttexture" 		"vgui/white"
+
+	"$phong" 							"1"
+	"$phongboost"					"4"
+	"$phongfresnelranges"		"[1 2 6]"
+	"$phongexponent"				"4"
+	"$phongalbedotint"			"1"
+
+	"$envmap" 						"env_cubemap"
+	"$basemapalphaenvmapmask"		"1"
+	//"$envmapfresnel"				"1"
+	"$envmaptint"					"[.08 .08 .08]"
+	
+	$bussin   12
+	
+	$detail "models\survivors\chunli\bile"
+	$detailscale 1.85
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+
+	$ITAmount 0
+ 
+
+	Proxies
+	{
+		IT
+		{
+			resultVar $ITAmount
+		}
+		Equals
+		{
+			srcVar1 $ITAmount
+			resultVar $detailblendfactor
+		}
+		Multiply
+		{
+			srcVar1	$bussin
+			srcVar2	$ITAmount
+			resultVar	$phongboost
+		}
+	}
+}
